@@ -1,0 +1,6 @@
+Hi future me or another who watch this file. In this moment I feel that I can keep a basic conversation with a native speaker, I will improve my spoken english skill and german spoken skill.
+I will become a great programmer and multimedia engineer. I also feel great passion for maths and computer science.
+
+Date: saturday 26th of november, 2022.
+
+This first method doesn't work. So, I am trying with the standard method to upload files to the repository on Github.
