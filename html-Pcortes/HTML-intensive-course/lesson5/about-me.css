@@ -5,3 +5,9 @@ body{
     background-color:#333;
     color: whitesmoke;
 }
+a{
+    color:white;
+}
+a:active, a:hover{
+    color:orange;
+}

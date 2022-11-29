@@ -6,3 +6,12 @@ body{
     color: whitesmoke;
 }
 
+a{
+    color:aliceblue;
+}
+
+
+
+a:hover, a:active{
+    color:orange;
+}
