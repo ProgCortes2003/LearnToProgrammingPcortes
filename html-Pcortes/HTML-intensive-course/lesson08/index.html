@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Pablo Cortes">
+        <title>My first web page</title>
+        <!-- lower case once again-->
+        <link rel="icon" href="./LogoHTML5.png">
+        <link rel="stylesheet" href="./main.css">
+    </head>
+    <body>
+
+        <header>
+            <h1>Hello World!</h1>
+        <nav aria-label="primary-navigation">
+            <ul>
+                <li>
+                    <a href="#shortDescription">Description</a>
+                </li>
+                <li>
+                    <a href="#goals">My goals</a>
+                </li>
+                <li>
+                    <a href="#dailySchedule">Daily schedule</a>
+                </li>
+                <li>
+                    <a href="#vacationsPlan"> Vacation's plan</a>
+                </li>
+                <li>
+                    <a href="#placesLove">Love go there</a>
+                </li>
+                <li>
+                    <a href="#placesHate">Hate go there</a>
+                </li>
+            </ul>
+        </nav>
+        </header>
+        <hr>
+        <main>
+            <article id="shortDescription">
+                <h2>Short Description</h2>
+                <section>
+                    <div>
+                        <h3>about my undergraduate</h3>
+                        <p> I'm a third year student
+                            of multimedia enginnering 
+                            at the 
+                            <abbr title = "Universidad Simón Bolivar"><a href="https://www.unisimon.edu.co">USB</a></abbr>
+                            in Cúcuta - Colombia.</p>
+        
+                        <br>
+                    </div>               
+                    <div>
+                        <h3> About me and the pets</h3>
+                        <p>
+                        for a some reason, that I don't know, ok I know but I don't say you, I don't like so much the pets.
+                         </p>
+                        <figure>
+                            <img src="./img/img_dogs.jpg" alt="two little dogs" title="Pets" width="500" height="300">
+                        <figcaption> A cute dogs.</figcaption>
+                        </figure>
+                     </div>
+                     <aside>
+                        <details>
+                            <summary>
+                                Guess <mark>my favorite</mark> dish what I wanna eat twice for a week.
+                            </summary>
+                            <p> I love to eating spaghetti with mushrooms and cheese, and grilled fish.</p>
+                        </details>
+                     </aside>
+                     <br>
+                     <div>
+                        <table>
+                            <caption>
+                                <strong> My Daily Schedule </strong>
+                            </caption>
+                            <thead>
+                                <tr>
+                                    <th>
+                                        &nbsp;
+                                    </th>
+                                    <th scope="col">
+                                        Activity 
+                                    </th>
+                                    <th scope="col">
+                                        Time
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th scope="row"> Morning </th>
+                                <td>
+                                    <strong>Wake up</strong>
+                                </td>
+                                <td>
+                                    around at <time datetime="05:00">05:00</time> or <time datetime="05:30">05:30</time>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"> Morning </th>
+                                <td>
+                                    <strong>Coding</strong>
+                                </td>
+                                <td>
+                                    <time datetime="06:00">06:00</time> - <time datetime="07:00"> 07:00 </time>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"> Morning </th>
+                                <td>
+                                    <strong> Take the Breakfast </strong>
+                                </td>
+                                <td>
+                                    <time datetime="07:00">07:00</time> - <time datetime="08:00">08:00</time>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"> Morning </th>
+                                <td>
+                                    <strong> Work time </strong>
+                                </td>
+                                <td>
+                                    <time datetime="08:00">08:00</time> - <time datetime="12:00">12:00</time>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"> Break </th>
+                                <td>
+                                    <strong> Take the lunch </strong>
+                                </td>
+                                <td>
+                                    <time datetime="12:00">12:00</time> - <time datetime="14:00">02:00</time>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"> Afternoon </th>
+                                <td>
+                                    <strong> Work Time </strong>
+                                </td>
+                                <td>
+                                    <time datetime="14:00">02:00</time> - <time datetime="18:00">06:00</time>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"> Evening and night </th>
+                                <td>
+                                    <strong> Do exercise </strong>
+                                </td>
+                                <td rowspan="3">
+                                    <time datetime="17:00">07:00</time> - <time datetime="20:00">10:00</time>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"> Evening and night </th>
+                                <td>
+                                    <strong> the dinner </strong>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"> Evening and night </th>
+                                <td>
+                                    <strong> Sleep </strong>
+                                </td>
+                            </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan = "3">
+                                        <strong>these are all task that I do the five days a the week, and recharge!,
+                                            Saturdays and Sundays are to rest.
+                                        </strong>
+                                    </td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+             </section>
+            </article>
+    
+            <hr>
+            <article>
+                <h2>I'm ready to learn HTML (Hyper Text Markup Language)</h2>
+                <section id="goals">
+                    <div>
+                        <h3>My Page</h3>
+                        <p>This is my web page  and once of all steps in the world computer programming.</p>
+                        <figure>
+                            <img src="img/image1.jpg" alt="It is showing a part of a code." 
+                            title="A part of random code." width="500" height="300">
+                            <figcaption>
+                            Part of a random code.
+                            </figcaption>
+                        </figure>
+                    </div>
+                </section>
+                <section>
+                    <h2>HTML Code</h2>
+                    <div>
+                        <h3>Part of a HyperTextMarkupLanguage Code</h3>
+                        <figure>
+                            <figcaption>
+                                A HTML code fragment
+                            </figcaption>
+                            <br>
+                            <code>
+                                &lt;h1&gt;Hello World!&lt;/h1&gt;
+                            </code>
+                        </figure>
+                        <p>Thanks a bunch God for bless us with wise that allow us invent the world computer programming.</p>
+                    </div>                  
+                </section>
+            </article>
+            
+    
+            <hr>
+    
+            <section id="dailySchedule">
+              
+                <h3>My Daily Schedule</h3>
+                <br>
+                <p>Let me tell you how:
+                    <ul>
+                        <li>
+                            <p>I wash my hands after waking up.</p>
+                        </li>
+                        <li>
+                            <p>I brush my teeths inmediately after take the breakfast.</p>
+                        </li>
+                        <li>
+                            <p>I love to doing exercise in the morning.</p>
+                            <figure>
+                                <img src="./img/img_calisthenics.jpg" alt="Calisthenic exercise" title="A kind of push up"
+                                width="500" height="300">
+                                <figcaption> 
+                                A kind of calisthenic exercise.
+                                </figcaption>
+                            </figure>
+                        </li>
+                    </ul>
+    
+            </section>
+    
+            <hr>
+    
+            <section id="vacationsPlan">
+    
+                <h2>I'm also plannig a vacation</h2>
+                <p>I've been working hard and <em>really 
+                need a getaway</em>.</p>
+                <p> I live in Villa del Rosario so 
+                I want to visit a beach.</p>
+    
+            </section>
+            
+            <hr>
+    
+            <section id="placesLove">
+    
+                <h3>Places I like to visit:</h3>
+                <p>I've heard a lot of good things about 
+                Barranquilla and Santa Marta.</p>
+                <p>
+                I wish go to next places:
+                </p>
+    
+                    <address>Rodadero city in Santa Marta (Magdalena - Colombia)</address>
+                    <address>Cabo de la vela in La Guajira.</address>
+                    <address>Ciénaga (Magdalena, Colombia).</address>
+                
+            </section>
+    
+            
+            <hr>
+    
+                <section id="placesHate">
+                    <h3> Place I want to Avoid</h3>
+                    <p><strong>Extremely temperature places</strong></p>
+                    <dl>
+                    <dt>Antartic</dt>
+            
+                    <dd>It's a super cold place</dd>
+    
+                    <dt>Really I don't have anymore place where I would not be there.</dt>
+                    <dd>I know that I said ¡No Extremely temperature places¡, but, 
+                    I really want meeting a lot of places on the earth.</dd>
+                    </dl>
+                </section>
+        </main>
+        
+        
+        <hr>
+
+        <footer>
+            <p>&lt;&lt;&lt; &copy; <a href="/about-me.html"> Pablo Cortes </a>&gt;&gt;&gt;</p>          
+            <p> <a href="#">Back to the top</a></p>
+        </footer>
+
+    </body>
+</html>
