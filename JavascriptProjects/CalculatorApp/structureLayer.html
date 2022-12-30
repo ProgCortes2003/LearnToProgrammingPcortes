@@ -2,13 +2,39 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Calculator App </title>
         <link rel="stylesheet" href="./stylingLayer.css">
     </head>
     <body>
         <script src="./logicLayer.js"></script>
-        <div>
+        <section class="calculator">
+            <form>
+                <input type="text" class="screenCalculator">
+            </form>
+            <div class="buttonsCalculator">
+                <!-- Basic operations buttons-->
+                <button type="button" class="btn-bs-operation" data-num="*">*</button>
+                <button type="button" class="btn-bs-operation" data-num="/">/</button>
+                <button type="button" class="btn-bs-operation" data-num="-">-</button>
+                <button type="button" class="btn-bs-operation" data-num="+">+</button>
 
-        </div>
+                <!-- Number buttons and decimal button -->
+                <button type="button" class="btn-number" data-num="9">9</button>
+                <button type="button" class="btn-number" data-num="8">8</button>
+                <button type="button" class="btn-number" data-num="7">7</button>
+                <button type="button" class="btn-number" data-num="6">6</button>
+                <button type="button" class="btn-number" data-num="5">5</button>
+                <button type="button" class="btn-number" data-num="4">4</button>
+                <button type="button" class="btn-number" data-num="3">3</button>
+                <button type="button" class="btn-number" data-num="2">2</button>
+                <button type="button" class="btn-number" data-num="1">1</button>
+                <button type="button" class="btn-number" data-num=".">.</button>
+
+                <!-- Special functions buttons -->
+                <button type="button" class="btn-sp-functions">=</button>
+                <button type="button" class="btn-sp-functions">C</button>
+            </div>
+        </section>
     </body>
 </html>

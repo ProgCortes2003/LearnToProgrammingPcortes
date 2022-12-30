@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    min-height: 100vh;
+    background: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+
+    width:300px;
+    height:500px;
+    box-shadow: 4px 4px 30px rgb(107, 99, 99);
+    border-radius: 15px;
+    background:#E872E3;
+    overflow:hidden;
+}
+
+form input{
+    width: 100%;
+    height: 20vh;
+    border:none;
+    font-size: 2rem;
+    padding: 1rem;
+    color:#fff;
+    background: #9C3D97;
+    text-align: right;
+    justify-content: baseline;
+    pointer-events: none; /* Unables the writting inside the form*/
+
+}
