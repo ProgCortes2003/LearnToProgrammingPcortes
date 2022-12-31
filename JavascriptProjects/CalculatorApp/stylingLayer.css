@@ -15,10 +15,10 @@ body{
 .calculator{
 
     width:300px;
-    height:500px;
+    height:530px;
     box-shadow: 4px 4px 30px rgb(107, 99, 99);
     border-radius: 15px;
-    background:#E872E3;
+    background:#0A2647;
     overflow:hidden;
 }
 
@@ -29,9 +29,54 @@ form input{
     font-size: 2rem;
     padding: 1rem;
     color:#fff;
-    background: #9C3D97;
+    background: #000;
     text-align: right;
     justify-content: baseline;
     pointer-events: none; /* Unables the writting inside the form*/
 
+}
+
+.buttonsCalculator{
+
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+button {
+
+    flex:0 0 22%;
+    margin: 5px 0;
+    border:none;
+    width:60px;
+    height:52px;
+    font-size:22px;
+    font-weight: bolder;
+    border-radius: 5px;
+
+
+}
+
+.btn-bs-operation{
+
+    background: rgb(215, 148, 25);
+    color:white;
+}
+
+.btn-number{
+
+    background: white;
+}
+
+.btn-equal{
+
+    background: rgb(202, 34, 160);
+    color:white;
+}
+
+.btn-clear{
+
+    background: red;
+    color: white;
 }
